@@ -24,7 +24,7 @@ st.markdown("""
 # Load data with caching
 @st.cache_data
 def load_data():
-    df = load_and_clean_data('data/creditcard.csv')
+    df = load_and_clean_data()
     return df
 
 try:

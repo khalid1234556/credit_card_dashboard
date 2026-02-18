@@ -1,6 +1,6 @@
 # 💳 Credit Card Fraud Risk & Financial Impact Dashboard
 
-**Live Dashboard**: [https://credit-card-dashboard.streamlit.app](https://credit-card-dashboard.streamlit.app)
+**Live Dashboard**: [https://creditcarddashboard-heztqfmp73wjnjytqgqe9u.streamlit.app/](https://creditcarddashboard-heztqfmp73wjnjytqgqe9u.streamlit.app/)
 
 ## 1. Project Overview
 
@@ -96,7 +96,7 @@ Business recommendations:
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/credit_card_dashboard.git
+git https://github.com/khalid1234556/credit_card_dashboard.git
 cd credit-card-dashboard
 
 # Install dependencies

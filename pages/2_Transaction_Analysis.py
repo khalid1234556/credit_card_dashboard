@@ -15,7 +15,7 @@ st.markdown("Analyzing normal customer behavior patterns")
 # Load data
 @st.cache_data
 def load_data():
-    return load_and_clean_data('data/creditcard.csv')
+    return load_and_clean_data()
 
 df = load_data()
 
