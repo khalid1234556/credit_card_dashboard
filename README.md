@@ -2,16 +2,20 @@
 
 **Live Dashboard**: [https://creditcarddashboard-heztqfmp73wjnjytqgqe9u.streamlit.app/](https://creditcarddashboard-heztqfmp73wjnjytqgqe9u.streamlit.app/)
 
+---
+
 ## 1. Project Overview
 
 This is an interactive dashboard that analyzes credit card transaction data to identify fraud patterns and financial impact. The dashboard helps decision-makers understand fraud risks and take data-driven actions.
 
 **Main Question**: How can financial institutions monitor fraud risk and minimize financial losses?
 
+---
+
 ## 2. Data Source
 
 **Dataset**: Credit Card Fraud Detection Dataset from Kaggle  
-**Link**: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+**Link**: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 **What's in the data**:
 - 284,807 transactions
@@ -19,6 +23,8 @@ This is an interactive dashboard that analyzes credit card transaction data to i
 - Time (in seconds)
 - Amount
 - Class (0 = Normal, 1 = Fraud)
+
+---
 
 ## 3. Methodology
 
@@ -40,6 +46,8 @@ This is an interactive dashboard that analyzes credit card transaction data to i
 - **Streamlit**: For interactive dashboard
 - **Plotly**: For interactive charts
 - **Pandas**: For data manipulation
+
+---
 
 ## 4. Dashboard Structure
 
@@ -67,6 +75,8 @@ Business recommendations:
 - Action plans
 - Strategic recommendations
 
+---
+
 ## 5. Key Insights
 
 1. Fraud is rare but expensive (0.17% of transactions, 0.8% of total amount)
@@ -74,6 +84,8 @@ Business recommendations:
 3. Most fraud occurs during late night hours (2 AM peak)
 4. Large transactions (> $1000) carry the highest risk
 5. 10 transactions account for 25% of total fraud loss
+
+---
 
 ## 6. Recommendations
 
@@ -92,12 +104,30 @@ Business recommendations:
 - Advanced analytics
 - Industry collaboration
 
-## 7. How to Run Locally
+---
+
+## 7. Business Value
+
+This dashboard provides measurable financial value by helping institutions focus monitoring efforts where fraud risk is highest instead of reviewing all transactions equally.
+
+By identifying that 25% of fraud losses originate from only 10 transactions, the company can apply targeted controls (such as real-time alerts and manual verification) to a very small subset of operations. This significantly reduces operational cost while preventing a large portion of financial damage.
+
+Additionally, monitoring high-amount nighttime transactions allows early intervention before settlement, which can prevent chargebacks and customer disputes.
+
+**Expected Impact**:
+- Reduce fraud losses
+- Lower investigation workload
+- Improve customer trust
+- Maintain smooth experience for legitimate users
+
+---
+
+## 8. How to Run Locally
 
 ```bash
 # Clone repository
-git https://github.com/khalid1234556/credit_card_dashboard.git
-cd credit-card-dashboard
+git clone https://github.com/khalid1234556/credit_card_dashboard.git
+cd credit_card_dashboard
 
 # Install dependencies
 pip install -r requirements.txt
