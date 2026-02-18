@@ -96,7 +96,7 @@ Business recommendations:
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/credit-card-dashboard.git
+git clone https://github.com/your-username/credit_card_dashboard.git
 cd credit-card-dashboard
 
 # Install dependencies
