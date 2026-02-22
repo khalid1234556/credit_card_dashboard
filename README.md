@@ -14,15 +14,22 @@ This is an interactive dashboard that analyzes credit card transaction data to i
 
 ## 2. Data Source
 
-**Dataset**: Credit Card Fraud Detection Dataset from Kaggle  
-**Link**: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+**Primary Source**: Credit Card Fraud Detection Dataset – Kaggle  
+**Original Dataset Link**: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-**What's in the data**:
+This dataset was originally published on Kaggle by the ULB Machine Learning Group and is widely used for fraud detection research and financial risk analysis.
+
+**Dataset Used in This Project (GitHub Mirror)**:  
+[https://raw.githubusercontent.com/nsethi31/Kaggle-Data-Credit-Card-Fraud-Detection/master/creditcard.csv](https://raw.githubusercontent.com/nsethi31/Kaggle-Data-Credit-Card-Fraud-Detection/master/creditcard.csv)
+
+For deployment simplicity and reproducibility in the live dashboard, the dataset is loaded directly from a publicly available GitHub-hosted CSV file that mirrors the original Kaggle dataset.
+
+**What's in the Data**:
 - 284,807 transactions
-- 28 anonymized features (PCA transformed)
-- Time (in seconds)
-- Amount
-- Class (0 = Normal, 1 = Fraud)
+- 28 anonymized features (PCA-transformed variables: V1–V28)
+- Time (seconds elapsed between transactions)
+- Amount (transaction value in USD)
+- Class (0 = Normal transaction, 1 = Fraudulent transaction)
 
 ---
 
@@ -177,7 +184,8 @@ cd credit_card_dashboard
 # Install dependencies
 pip install -r requirements.txt
 
-# Download data from Kaggle and place in data/ folder
+# The app will automatically load data from the GitHub mirror
+# No manual download required
 
 # Run the app
 streamlit run app.py
